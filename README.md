@@ -19,6 +19,7 @@ This repository is for an embedded bluetooth communication device using the Texa
 ### Pairing Master and Slave
 1. First, we will setup the slave module.
 2. Connect HC-05 bluetooth module to Arduino Uno with the following pin connections.
+
     | HC-05 | Arduino Uno |
     | --- | --- |
     | VCC | 3.3V |
