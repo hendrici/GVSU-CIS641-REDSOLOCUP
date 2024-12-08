@@ -6,6 +6,7 @@ This section lists all of the functional and non-functional requirements of the 
 
 ## Functional Requirements
 ### UART Communication
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR1 | The bluetooth UART instance should be initialized to a baud rate of 38400. |
@@ -15,6 +16,7 @@ This section lists all of the functional and non-functional requirements of the 
 | FR5 | The system should be able to connect to a bluetooth peripheral and serial terminal via UART instances. |
 
 ### Input/Output Handling
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR6 | The system should handle new-line character inputs (\r\n) as a method to send a message. |
@@ -24,6 +26,7 @@ This section lists all of the functional and non-functional requirements of the 
 | FR10 | The system shall ensure newline characters are cleared from the character buffer to ensure clean data transmission. |
 
 ### UART Configuration
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR11 | MCLK and HSMCLK should be initialized to 48 MHz during operation. |
@@ -33,6 +36,7 @@ This section lists all of the functional and non-functional requirements of the 
 | FR15 | The UART configuration should utilize 1 stop bit for communication. |
 
 ### Interrupt Handling
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR16 | The system shall support interrupts for receiving UART data bytes. |
@@ -42,6 +46,7 @@ This section lists all of the functional and non-functional requirements of the 
 | FR20 | The interrupts must handle each character buffer in circular fashion. |
 
 ### Bluetooth Pairing
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | FR21 | The system must contain both a master and slave bluetooth module. |
@@ -52,6 +57,7 @@ This section lists all of the functional and non-functional requirements of the 
 
 ## Non-Functional Requirements
 ### Usability
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR1 | The system must maintain the integrity of messages when being sent between devices.  |
@@ -61,6 +67,7 @@ This section lists all of the functional and non-functional requirements of the 
 | NFR5 | Buffer manipulation must be easy to understand when reading and writing to. |
 
 ### Program Content
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR6 | The system shall print an ASCII style cover art image upon startup. |
@@ -70,6 +77,7 @@ This section lists all of the functional and non-functional requirements of the 
 | NFR10 | The system should be able to print colored system messages. |
 
 ### Maintainability
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR11 | Functions written in the program must be designed modularly for future use. |
@@ -79,6 +87,7 @@ This section lists all of the functional and non-functional requirements of the 
 | NFR15 | Each function in the program must contain proper documentation explaining its purpose. |
 
 ### Performance
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR16 | The system must handle user input with little latency. |
@@ -88,6 +97,7 @@ This section lists all of the functional and non-functional requirements of the 
 | NFR20 | The system should print startup messages in a reasonable timeframe. |
 
 ### Scalability
+
 | ID | Requirement |
 | :-------------: | :----------: |
 | NFR21 | The system must be able to support more than one UART instance. |
@@ -105,6 +115,7 @@ This application was created to serve as a learning module for bluetooth applica
 This section shows how the software artifacts, specifically use case diagrams, class diagrams, and activity diagrams, are linked to the system requirements to ensure traceability. Each table provides an overview that maps each artifact to its corresponding functional or non-functional requirements.
 
 ## Use Case Diagram Traceability
+
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 | Use Case Diagram #1 | Transmit/Receive Serial Data | FR16-20 |
@@ -115,6 +126,7 @@ This section shows how the software artifacts, specifically use case diagrams, c
 | Use Case Diagram #2 | Type/Send Message | FR4 |
 
 ## Class Diagram Traceability
+
 | Artifact Name | Requirement ID |
 | :-------------: |:----------: |
 | System Clock | FR11-12 |
@@ -124,6 +136,7 @@ This section shows how the software artifacts, specifically use case diagrams, c
 
 
 ## Activity Diagram Traceability
+
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
 | Activity Diagram #1 | Handle Serial/Bluetooth Data | FR16-20 |
