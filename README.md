@@ -5,6 +5,9 @@ This repository is for an embedded bluetooth communication device using the Texa
 ## Team Members and Roles
 * [Isaiah Hendrick](https://hendrici.github.io/CIS641-HW2-HENDRICK/) (project manager)
 
+## Presentation Video
+[![Final Release Demo](http://i3.ytimg.com/vi/bW4uWVO4yxs/hqdefault.jpg)](https://youtu.be/bW4uWVO4yxs)
+
 ## Run Instructions
 ### Required Hardware
 1. [MSP432P401R Evaluation Board](https://www.digikey.com/en/products/detail/texas-instruments/MSP-EXP432P401R/5170609) x2 (looks like this board is now technically obsolete, may be able to refactor CCS project for use with simliar product)
